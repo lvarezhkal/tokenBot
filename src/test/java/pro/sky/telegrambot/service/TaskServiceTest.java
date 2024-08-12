@@ -53,6 +53,6 @@ class TaskServiceTest {
         assertThat(repository.getNotificationTasksByTaskTime(dateTime))
                 .hasSize(3)
                 .containsExactlyInAnyOrder(TASK_3, TASK_1, TASK_2);
-    }
+     }
 
 }

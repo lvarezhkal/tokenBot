@@ -20,5 +20,5 @@ public class TaskController {
     @GetMapping("/user/all")
     public List<NotificationTask> allTask() {
         return taskRepository.findAll();
-    }
+     }
 }

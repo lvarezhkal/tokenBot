@@ -12,4 +12,4 @@ public interface TaskRepository extends JpaRepository<NotificationTask, Long> {
 
     List<NotificationTask> getNotificationTasksByTaskTime(final LocalDateTime time);
 
-}
+ }
